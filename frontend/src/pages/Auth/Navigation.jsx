@@ -49,21 +49,21 @@ const Navigation = () => {
       id="navigation-container"
     >
       <div className="flex flex-col justify-center space-y-4">
-        <Link
+        {/* <Link
           to="/"
           className="flex items-center transition-transform transform hover:translate-x-2"
         >
           <AiOutlineHome className="mr-2 mt-[3rem]" size={26} />
           <span className="hidden nav-item-name mt-[3rem]">HOME</span>{" "}
-        </Link>
+        </Link> */}
 
-        <Link
+        {/* <Link
           to="/shop"
           className="flex items-center transition-transform transform hover:translate-x-2"
         >
           <AiOutlineShopping className="mr-2 mt-[3rem]" size={26} />
           <span className="hidden nav-item-name mt-[3rem]">SHOP</span>{" "}
-        </Link>
+        </Link> */}
 
         {/* <Link to="/cart" className="flex relative">
           <div className="flex items-center transition-transform transform hover:translate-x-2">
@@ -79,7 +79,7 @@ const Navigation = () => {
                 </span>
               </span>
             )}
-          </div>
+          </div> 
         </Link> */}
       </div>
 
